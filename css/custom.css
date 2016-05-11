@@ -1,0 +1,181 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Hanlding Updates
+-----------------------------------------------------------------*/
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #212121;
+    font-weight: 600;
+    line-height: 1.5;
+    margin: 0 0 30px 0;
+    font-family: 'Lato', sans-serif;
+}
+
+h5,
+h6 { margin-bottom: 20px; }
+
+h1 { font-size: 64px; }
+
+h2 { font-size: 38px; }
+
+h3 { font-size: 26px; }
+
+h4 { font-size: 16px; }
+
+h5 { font-size: 48px; }
+
+h6 { font-size: 12px; }
+
+h4 { font-weight: 600; }
+
+h5,
+h6 { font-weight: bold; }
+
+
+#footer.dark, .dark #footer {
+    background: #1f58f4;
+}
+
+#header.sticky-header #header-wrap  {
+    background: #1f58f4;
+    color: #fff;
+}
+
+#primary-menu a, #primary-menu li, #primary-menu ul {
+    color: #fff;
+}
+
+#header.not-dark {
+    background: #1f58f4;
+}
+
+
+
+.bkg-blue {
+    background: #1f58f4;
+    border-top: 5px solid #1946c3;
+}
+
+.bkg-blue h1,
+.bkg-blue h2,
+.bkg-blue h3,
+.bkg-blue h4,
+.bkg-blue h5,
+.bkg-blue h6 {
+    color: #ffffff;
+}
+
+.bkg-lightblue {
+    background: #bbdefb;
+    border-top: 5px solid #1946c3;
+}
+
+.bkg-lightblue h1,
+.bkg-lightblue h2,
+.bkg-lightblue h3,
+.bkg-lightblue h4,
+.bkg-lightblue h5,
+.bkg-lightblue h6 {
+    color: #212121;
+}
+
+.bkg-yellow {
+    background: #ffce09;
+    border-top: 5px solid #1946c3;
+}
+
+.bkg-yellow h1,
+.bkg-yellow h2,
+.bkg-yellow h3,
+.bkg-yellow h4,
+.bkg-yellow h5,
+.bkg-yellow h6 {
+    color: #212121;
+}
+
+.bkg-white {
+    background: #ffffff;
+    border-top: 5px solid #1946c3;
+}
+
+.bkg-white h1,
+.bkg-white h2,
+.bkg-white h3,
+.bkg-white h4,
+.bkg-white h5,
+.bkg-white h6 {
+    color: #212121;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.btn-info {
+    color: #212121;
+    background-color: #ffce09;
+    border-color: #ffce09;
+}
+
+.dark .form-control:not(.not-dark), .dark .sm-form-control:not(.not-dark) {
+    color: #212121;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.dark .form-control:not(.not-dark):active, .dark .form-control:not(.not-dark):focus, .dark .sm-form-control:not(.not-dark):active, .dark .sm-form-control:not(.not-dark):focus {
+    background-color: #fff;
+    border-color: #fff !important;
+}
+
+.vertical-align p {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.icon-padding {
+    padding: 20px;
+    }
+
+.dark .widget_links li a{
+    color: #fff;
+}
+
+.footer-wrap {
+    padding-top: 40px;
+}
+
+.btn-info:hover {
+    background-color: #cea012;
+    color: #212121;
+}
+
+.team-subtitle h4 {
+    display: block;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+.table-accepting {
+    width: 600px;
+
+}
+
+.table-padding-left {
+    padding: 20px 0 0 40px;
+}
+
+
+
+
