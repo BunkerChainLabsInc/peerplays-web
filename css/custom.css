@@ -167,8 +167,8 @@ h6 { font-weight: bold; }
     font-size: 16px;
 }
 
-.table-accepting {
-    width: 600px;
+.table-accepting, td {
+    padding: 0 10px;
 
 }
 
