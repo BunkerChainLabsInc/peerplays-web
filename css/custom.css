@@ -44,6 +44,17 @@ h6 { font-weight: bold; }
     background: #1f58f4;
 }
 
+.footer-wrap {
+    color: #ffffff;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+}
+
+.footer-padding {
+    padding-left: 100px;
+}
+
 #header.sticky-header #header-wrap  {
     background: #1f58f4;
     color: #fff;
@@ -56,8 +67,6 @@ h6 { font-weight: bold; }
 #header.not-dark {
     background: #1f58f4;
 }
-
-
 
 .bkg-blue {
     background: #1f58f4;
