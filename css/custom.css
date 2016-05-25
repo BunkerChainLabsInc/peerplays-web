@@ -51,10 +51,6 @@ h6 { font-weight: bold; }
     padding-bottom: 25px;
 }
 
-.footer-padding {
-    padding-left: 100px;
-}
-
 #header.sticky-header #header-wrap  {
     background: #1f58f4;
     color: #fff;
