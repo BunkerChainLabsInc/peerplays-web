@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="en-US" itemscope itemtype="http://schema.org/Article">
+<html dir="ltr" lang="en-US" itemscope itemtype="http://schema.org/Organization">
 
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -72,51 +72,10 @@ src="https://www.facebook.com/tr?id=219971901723077&ev=PageView&noscript=1"
     <link rel="stylesheet" href="css/colors.css" type="text/css" />
     <link rel="stylesheet" href="css/custom.css" type="text/css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<!--[if lt IE 9]>
-		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-	<![endif]-->
-
-	<!-- SLIDER REVOLUTION 5.x CSS SETTINGS -->
-	<link rel="stylesheet" type="text/css" href="include/rs-plugin/css/settings.css" media="screen" />
-	<link rel="stylesheet" type="text/css" href="include/rs-plugin/css/layers.css">
-	<link rel="stylesheet" type="text/css" href="include/rs-plugin/css/navigation.css">
 
 	<!-- Document Title
 	============================================= -->
 	<title>Peerplays</title>
-
-	<style>
-
-		.revo-slider-emphasis-text {
-			font-size: 64px;
-			font-weight: 700;
-			letter-spacing: -1px;
-			font-family: 'Raleway', sans-serif;
-			padding: 15px 20px;
-			border-top: 2px solid #FFF;
-			border-bottom: 2px solid #FFF;
-		}
-
-		.revo-slider-desc-text {
-			font-size: 20px;
-			font-family: 'Lato', sans-serif;
-			width: 650px;
-			text-align: center;
-			line-height: 1.5;
-		}
-
-		.revo-slider-caps-text {
-			font-size: 16px;
-			font-weight: 400;
-			letter-spacing: 3px;
-			font-family: 'Raleway', sans-serif;
-		}
-
-		.tp-video-play-button { display: none !important; }
-
-		.tp-caption { white-space: nowrap; }
-
-	</style>
 
 </head>
 
@@ -764,133 +723,6 @@ src="https://www.facebook.com/tr?id=219971901723077&ev=PageView&noscript=1"
 	<!-- Footer Scripts
 	============================================= -->
 	<script type="text/javascript" src="js/functions.js"></script>
-
-	<!-- SLIDER REVOLUTION 5.x SCRIPTS  -->
-	<script type="text/javascript" src="include/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-	<script type="text/javascript" src="include/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-
-	<script type="text/javascript" src="include/rs-plugin/js/extensions/revolution.extension.video.min.js"></script>
-	<script type="text/javascript" src="include/rs-plugin/js/extensions/revolution.extension.slideanims.min.js"></script>
-	<script type="text/javascript" src="include/rs-plugin/js/extensions/revolution.extension.actions.min.js"></script>
-	<script type="text/javascript" src="include/rs-plugin/js/extensions/revolution.extension.layeranimation.min.js"></script>
-	<script type="text/javascript" src="include/rs-plugin/js/extensions/revolution.extension.kenburn.min.js"></script>
-	<script type="text/javascript" src="include/rs-plugin/js/extensions/revolution.extension.navigation.min.js"></script>
-	<script type="text/javascript" src="include/rs-plugin/js/extensions/revolution.extension.migration.min.js"></script>
-	<script type="text/javascript" src="include/rs-plugin/js/extensions/revolution.extension.parallax.min.js"></script>
-
-	<script type="text/javascript">
-
-		var tpj=jQuery;
-		tpj.noConflict();
-
-		tpj(document).ready(function() {
-
-			var apiRevoSlider = tpj('.tp-banner').show().revolution(
-			{
-				sliderType:"standard",
-				jsFileLocation:"include/rs-plugin/js/",
-				sliderLayout:"fullscreen",
-				dottedOverlay:"none",
-				delay:9000,
-				responsiveLevels:[1200,992,768,480,320],
-				startwidth:1140,
-				startheight:600,
-				hideThumbs:200,
-
-				thumbWidth:100,
-				thumbHeight:50,
-				thumbAmount:3,
-
-				navigation: {
-					keyboardNavigation:"off",
-					keyboard_direction: "horizontal",
-					mouseScrollNavigation:"off",
-					onHoverStop:"off",
-					touch:{
-						touchenabled:"on",
-						swipe_threshold: 75,
-						swipe_min_touches: 1,
-						swipe_direction: "horizontal",
-						drag_block_vertical: false
-					},
-					arrows: {
-                        style: "hermes",
-                        enable: true,
-                        hide_onmobile: false,
-                        hide_onleave: false,
-                        tmp: '<div class="tp-arr-allwrapper">	<div class="tp-arr-imgholder"></div>	<div class="tp-arr-titleholder">{{title}}</div>	</div>',
-                        left: {
-                            h_align: "left",
-                            v_align: "center",
-                            h_offset: 10,
-                            v_offset: 0
-                        },
-                        right: {
-                            h_align: "right",
-                            v_align: "center",
-                            h_offset: 10,
-                            v_offset: 0
-                        }
-                    }
-				},
-
-				touchenabled:"on",
-				onHoverStop:"on",
-
-				swipe_velocity: 0.7,
-				swipe_min_touches: 1,
-				swipe_max_touches: 1,
-				drag_block_vertical: false,
-
-
-				parallax:"mouse",
-				parallaxBgFreeze:"on",
-				parallaxLevels:[8,7,6,5,4,3,2,1],
-				parallaxDisableOnMobile:"on",
-
-				keyboardNavigation:"on",
-
-				shadow:0,
-				fullWidth:"off",
-				fullScreen:"on",
-
-				spinner:"spinner0",
-
-				stopLoop:"off",
-				stopAfterLoops:-1,
-				stopAtSlide:-1,
-
-				shuffle:"off",
-
-
-				forceFullWidth:"off",
-				fullScreenAlignForce:"off",
-				minFullScreenHeight:"400",
-
-				hideThumbsOnMobile:"off",
-				hideNavDelayOnMobile:1500,
-				hideBulletsOnMobile:"off",
-				hideArrowsOnMobile:"off",
-				hideThumbsUnderResolution:0,
-
-				hideSliderAtLimit:0,
-				hideCaptionAtLimit:0,
-				hideAllCaptionAtLilmit:0,
-				startWithSlide:0,
-				fullScreenOffset:"0px"
-			});
-
-			apiRevoSlider.bind("revolution.slide.onloaded",function (e) {
-				setTimeout( function(){ SEMICOLON.slider.sliderParallaxDimensions(); }, 200 );
-			});
-
-			apiRevoSlider.bind("revolution.slide.onchange",function (e,data) {
-				SEMICOLON.slider.revolutionSliderMenu();
-			});
-
-		}); //END REVOLUTION SLIDER
-
-	</script>
 
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
